@@ -28,6 +28,7 @@ module.exports = function(layoutData, options) {
   let mock = {};
 
   function json2jsx(json) {
+    console.log(json);
     var result = '';
 
     if (!!json.length && typeof json != 'string') {
